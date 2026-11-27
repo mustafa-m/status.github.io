@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Red/Blue/Yellow Pokédex</title>
+  <link rel="stylesheet" href="pokedex.css">
+</head>
+<body>
+  <header>
+    <h1>Pokémon Database</h1>
+    <p>Generation I (Red, Blue, Yellow)</p>
+  </header>
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search Pokémon by name...">
+  </div>
+  <table id="pokemon-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Type(s)</th>
+      </tr>
+    </thead>
+    <tbody id="pokemon-body"></tbody>
+  </table>
+  <script src="pokemon-data.js"></script>
+  <script src="pokedex.js"></script>
+</body>
+</html>
